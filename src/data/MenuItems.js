@@ -2,6 +2,7 @@ import Home from '../components/Home';
 import { PaginaListas } from '../components/PaginaListas';
 import Perfil from '../components/Perfil';
 import Criptos from '../components/Criptos';
+import TablaApi from '../components/TablaApi';
 
 export const MenuItems = [
   {
@@ -27,5 +28,11 @@ export const MenuItems = [
     path: '/Criptos',
     title: 'CRIPTOS',
     component: Criptos,
+  },
+  {
+    id: 5,
+    path: '/top-cripto',
+    title: 'TOP CRIPTO',
+    component: TablaApi,
   },
 ];
