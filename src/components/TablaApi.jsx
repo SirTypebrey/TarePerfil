@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import TableCoins from '../pages/TableCoins';
+import TableCoins from './TableCoins';
 
 export default function TablaApi() {
   const [coins, setCoins] = useState([]);
